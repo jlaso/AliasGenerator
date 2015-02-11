@@ -3,6 +3,7 @@ AliasGenerator
 
 This project provides helpers to generate pseudo-random alias.
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/d7d70442-b52c-4072-8e03-45e6a47e1ca2/mini.png)](https://insight.sensiolabs.com/projects/d7d70442-b52c-4072-8e03-45e6a47e1ca2)
 
 Installation
 ============
