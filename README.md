@@ -33,8 +33,3 @@ And for decode
     $generator = new AliasGenerator();
     $id        = $generator->decode($alias);
 ```
-
-
-        
-
-        
