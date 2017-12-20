@@ -5,8 +5,6 @@ services:
     php:
         build:
           context: .
-        #volumes:
-        #  - ./:/var/projects/aliasGenerator
 
 
 
