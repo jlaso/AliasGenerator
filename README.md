@@ -34,3 +34,22 @@ And for decode
     $generator = new AliasGenerator();
     $id        = $generator->decode($alias);
 ```
+
+Start docker container to test
+==============================
+
+```
+    docker-compose up --build
+```
+
+once started log in into the container
+
+```
+    docker-compose exec php /bin/bash
+```
+
+and run the tests
+
+```
+    phpunit
+```
