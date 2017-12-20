@@ -2,10 +2,10 @@ FROM php:7.1
 
 WORKDIR /var/project
 
-COPY src ./
-COPY Tests ./
-COPY composer.json ./
-COPY phpunit.xml ./
+COPY src/ ./src/
+COPY Tests/ ./Tests/
+COPY composer.json ./composer.json
+COPY phpunit.xml ./phpunit.xml
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive \

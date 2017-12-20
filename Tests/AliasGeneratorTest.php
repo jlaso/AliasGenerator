@@ -20,10 +20,11 @@ class AliasGeneratorTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($maxdigits, strlen($generator->maxAlias()));
     }
 
+    /**
+     * @expectedException \InvalidArgumentException
+     */
     public function testError()
     {
-        $this->expectException(\InvalidArgumentException::class);
-
         $generator = new AliasGenerator(
             array(
                 '012345',
