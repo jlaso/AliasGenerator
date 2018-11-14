@@ -3,10 +3,11 @@
   "description": "Pseudo random alias generator",
   "homepage": "https://github.com/jlaso/AliasGenerator",
   "license": "MIT",
+  "version": "0.1",
   "authors": [
     {
       "name": "joseluis laso",
-      "email": "jlaso@joseluislaso.es"
+      "homepage": "www.joseluislaso.es"
     }
   ],
   "require": {
